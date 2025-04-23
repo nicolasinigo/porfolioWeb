@@ -1,0 +1,33 @@
+.main{
+    background-color: rgb(34, 53, 33);
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+    justify-content: space-around;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+.carta{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.foto{
+    width: 10%;
+    border-radius: 5px;
+}
+
+.mainDatos{
+    background-color: rgb(64, 117, 60);
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.listas{
+    display: flex;
+    justify-content: space-around;
+    align-items:start;
+}

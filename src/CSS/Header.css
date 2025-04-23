@@ -1,0 +1,7 @@
+.header{
+    background-color: rgb(18, 73, 42);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
