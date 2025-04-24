@@ -1,7 +1,18 @@
-.header{
-    background-color: rgb(18, 73, 42);
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    margin-top: 5px;
+.header {
+  padding: 10px;
+  display: flex;
+  gap: 500px;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.cambio {
+  width: 5%;
+  border-width: 4px;
+  border-style: solid;
+  border-color: rgb(64, 117, 60);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

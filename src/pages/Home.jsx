@@ -1,9 +1,13 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Main from "../components/Main";
+import { useState } from 'react'
 
 
 const Home = () => {
+
+    const [color, setColor] = useState(true)
+    
 
     const datos={
         nombre:"Nicolas",
@@ -21,11 +25,11 @@ const Home = () => {
     }
 
     return ( 
-        <>
-        <Header datos={datos}/>
+        <div style={{backgroundColor: color===true ?"black":"white"}}>
+        <Header datos={datos} color={color} setColor={setColor}/>
         <Main datos={datos}/>
         <Footer datos={datos}/>
-        </>
+        </div>
     )
 }
  
