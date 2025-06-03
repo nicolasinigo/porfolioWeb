@@ -12,10 +12,10 @@ const AboutMe = () => {
   return (
     <div>
       <Container>
-        <Row className="align-items-stretch" style={{ height: "600px" }}>
-          <Col md={6} className="d-flex">
-            <Card className="w-100">
-              <Card.Body>
+        <Row className="align-items-stretch">
+          <Col md={6}>
+            <Card className="h-100">
+              <Card.Body style={{ height: "100%", width: "100%", objectFit: "cover", border:"3px solid rgb(212, 227, 6)" }}>
                 <Card.Title>
                   {datos.nombre} {datos.apellido}
                 </Card.Title>
@@ -41,14 +41,12 @@ const AboutMe = () => {
                   <ListGroup.Item>{datos.hobbis.gym}</ListGroup.Item>
                   <ListGroup.Item>{datos.hobbis.trekking}</ListGroup.Item>
                 </ListGroup>
-                <Card.Link href="#">Card Link</Card.Link>
-                <Card.Link href="#">Another Link</Card.Link>
               </Card.Body>
             </Card>
           </Col>
           <Col md={6}>
           <div className="h-100">
-            <Image src={foto} style={{ height: "100%", width: "100%", objectFit: "cover" }}/>
+            <Image src={foto} style={{ borderRadius:"5px", height: "100%", width: "100%", objectFit: "cover" }}/>
           </div>
           </Col>
         </Row>
