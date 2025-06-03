@@ -4,3 +4,18 @@
   padding: 10px;
   margin-bottom: 10px;
 }
+ .text-light-mode {
+  color: black;
+  background-color: white;
+}
+
+.text-dark-mode {
+  color: white;
+  background-color: rgb(27, 27, 23);
+}
+
+.navbar-bordered {
+  border: 2px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
