@@ -9,11 +9,11 @@ const Header = () => {
       <h1 className="col">Web Developer</h1>
       <Navbar>
         <Container>
-          <Navbar.Brand href="#home">Welcome</Navbar.Brand>
+          <Navbar.Brand href="/">Welcome</Navbar.Brand>
           <Nav>
-            <Nav.Link href="#home">About Me</Nav.Link>
-            <Nav.Link href="#features">Contact</Nav.Link>
-            <Nav.Link href="#pricing">Proyects</Nav.Link>
+            <Nav.Link href="/aboutMe">About Me</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Nav.Link href="/proyects">Proyects</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
