@@ -18,29 +18,29 @@ import data from "../../datos"
 const Proyects = () => {
   return (
     <Container>
-      <h3>Desarrollo</h3>
+      <h3>DESARROLLO</h3>
       <hr />
       <Row>
-        <Col><Cards imagen={adivinaNumero} data={data.proyectos.adivinaNumero}/></Col>
-        <Col><Cards imagen={clima} data={data.proyectos.appClima}/></Col>
-        <Col><Cards imagen={calculadora} data={data.proyectos.calculadora}/></Col>
+        <Col><Cards imagen={adivinaNumero} data={data.proyectos.adivinaNumero} titulo={"Adivina el numero"}/></Col>
+        <Col><Cards imagen={clima} data={data.proyectos.appClima} titulo={"App de Clima"}/></Col>
+        <Col><Cards imagen={calculadora} data={data.proyectos.calculadora} titulo={"Calculadora"}/></Col>
       </Row>
       <br />
       <Row>
-        <Col><Cards imagen={carrito} data={data.proyectos.carrito}/></Col>
-        <Col><Cards imagen={peliculas} data={data.proyectos.bucadorPeliculas}/></Col>
+        <Col><Cards imagen={carrito} data={data.proyectos.carrito} titulo={"Carrito de Compras"}/></Col>
+        <Col><Cards imagen={peliculas} data={data.proyectos.bucadorPeliculas} titulo={"App de Paliculas"}/></Col>
       </Row>
       <br />
-      <h3>Data</h3>
+      <h3>DATA</h3>
       <hr />
       <Row>
-        <Col><Cards imagen={netflix} data={data.proyectos.netflix}/></Col>
-        <Col><Cards imagen={etl} data={data.proyectos.etl}/></Col>
+        <Col><Cards imagen={netflix} data={data.proyectos.netflix} titulo={"Netflix"}/></Col>
+        <Col><Cards imagen={etl} data={data.proyectos.etl} titulo={"ETL"}/></Col>
       </Row>
       <br />
       <Row>
-        <Col><Cards imagen={sales} data={data.proyectos.sales}/></Col>
-        <Col><Cards imagen={sleep} data={data.proyectos.sleep}/></Col>
+        <Col><Cards imagen={sales} data={data.proyectos.sales} titulo={"Salarios"}/></Col>
+        <Col><Cards imagen={sleep} data={data.proyectos.sleep} titulo={"Sueño"}/></Col>
       </Row>
     </Container>
   )
