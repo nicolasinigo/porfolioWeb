@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import "./Cards.css";
 
-const Cards = ({imagen}) => {
+const Cards = ({imagen,data}) => {
   return (
     <div>
       <div className="card-img-hover" >
@@ -13,9 +13,9 @@ const Cards = ({imagen}) => {
             width: "100%",
           }} />
           <Card.Body>
+            <Card.Title>Card Title</Card.Title>
             <Card.Text>
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {data}
             </Card.Text>
           </Card.Body>
         </Card>
