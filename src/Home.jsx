@@ -7,10 +7,10 @@ import "./home.css"
 const Home = () => {
   const [color, setColor]= useState(true)
   return (
-    <div className={color ? "text-dark-mode" : "text-light-mode"} style={{backgroundColor: color?"rgb(27, 27, 23)":"white"}}>
+    <div className={color ? "text-dark-mode" : "text-light-mode"}>
         <Header color={color} setColor={setColor}></Header>
-        <Main color={color}></Main>
-        <Footer color={color}></Footer>
+        <Main ></Main>
+        <Footer></Footer>
     </div>
   )
 }

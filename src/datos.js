@@ -1,5 +1,5 @@
 const datos = {
-  nombre: "Nicolas",
+  nombre: "Nicolás",
   apellido: "Iñigo",
   titulo: "tecnico universitario en programacion",
   telefono: "3814142367",
