@@ -11,14 +11,13 @@ const Header = () => {
     const newThema = context === "light" ? "dark" : "light";
 
     setContext(newThema);
-    console.log(context)
   };
 
   const opposite = context === "light" ? "dark" : "light";
 
   return (
     <div>
-      <div className="container">
+      <div className="container border-bottom border-body" data-bs-theme={context}>
         <div className="d-flex justify-content-between align-items-center">
           <h1>Web Developer</h1>
           <Button onClick={handleThema} variant={`outline-${opposite}`}>
