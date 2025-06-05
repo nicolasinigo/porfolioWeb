@@ -9,7 +9,7 @@ const Main = () => {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/aboutMe" element={<AboutMe/>}/>
+        <Route path="/" element={<AboutMe/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/proyects" element={<Proyects/>}/>
       </Routes>

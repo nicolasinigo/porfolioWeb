@@ -3,15 +3,15 @@ import Cards from '../card/Cards'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import adivinaNumero from "../../../public/adivinaNumero.png"
-import clima from "../../../public/AppClima.png"
-import calculadora from "../../../public/calculadora.png"
-import carrito from "../../../public/carritoCompras.png"
-import peliculas from "../../../public/buscadorPeliculas.png"
-import netflix from "../../../public/netflix.png"
-import etl from "../../../public/etl.png"
-import sales from "../../../public/sales.png"
-import sleep from "../../../public/sleep.png"
+import adivinaNumero from "../../imagenes/adivinaNumero.png"
+import clima from "../../imagenes/AppClima.png"
+import calculadora from "../../imagenes/calculadora.png"
+import carrito from "../../imagenes/carritoCompras.png"
+import peliculas from "../../imagenes/buscadorPeliculas.png"
+import netflix from "../../imagenes/netflix.png"
+import etl from "../../imagenes/etl.png"
+import sales from "../../imagenes/sales.png"
+import sleep from "../../imagenes/sleep.png"
 import data from "../../datos"
 
 

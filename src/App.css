@@ -1,0 +1,20 @@
+/* Tema claro */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Tema oscuro */
+.dark {
+  background-color: #121212;
+  color: white;
+}
+
+/* Puedes añadir estilos específicos para otros elementos */
+.dark .navbar {
+  background-color: #222;
+}
+
+.light .navbar {
+  background-color: #f8f9fa;
+}

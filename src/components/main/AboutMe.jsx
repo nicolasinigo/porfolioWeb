@@ -5,12 +5,17 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import foto from "../../../public/fotoMia.jpg";
+import foto from "../../imagenes/fotoMia.jpg";
 import ListGroup from 'react-bootstrap/ListGroup';
+import { useContextOscuro } from "../../context/contextModoOscuro";
+
 
 const AboutMe = () => {
+
+  const { context, setContext } = useContextOscuro();
+
   return (
-    <div>
+    <div className={context}>
       <Container>
         <Row className="align-items-stretch">
           <Col md={6}>
