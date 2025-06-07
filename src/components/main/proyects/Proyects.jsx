@@ -1,18 +1,18 @@
 import React from 'react'
-import Cards from '../card/Cards'
+import Cards from '../../card/Cards'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import adivinaNumero from "../../imagenes/adivinaNumero.png"
-import clima from "../../imagenes/AppClima.png"
-import calculadora from "../../imagenes/calculadora.png"
-import carrito from "../../imagenes/carritoCompras.png"
-import peliculas from "../../imagenes/buscadorPeliculas.png"
-import netflix from "../../imagenes/netflix.png"
-import etl from "../../imagenes/etl.png"
-import sales from "../../imagenes/sales.png"
-import sleep from "../../imagenes/sleep.png"
-import data from "../../datos"
+import adivinaNumero from "../../../imagenes/adivinaNumero.png"
+import clima from "../../../imagenes/AppClima.png"
+import calculadora from "../../../imagenes/calculadora.png"
+import carrito from "../../../imagenes/carritoCompras.png"
+import peliculas from "../../../imagenes/buscadorPeliculas.png"
+import netflix from "../../../imagenes/netflix.png"
+import etl from "../../../imagenes/etl.png"
+import sales from "../../../imagenes/sales.png"
+import sleep from "../../../imagenes/sleep.png"
+import data from "../../../datos"
 
 
 const Proyects = () => {

@@ -1,11 +1,9 @@
 import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
-import Col from "react-bootstrap/esm/Col";
-import Row from "react-bootstrap/Row";
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useContextOscuro } from "../../context/contextModoOscuro";
+import { useContextOscuro } from "../../../context/contextModoOscuro";
 
 const Contact = () => {
   const { context, setContext } = useContextOscuro();
@@ -21,7 +19,7 @@ const Contact = () => {
       .then(
         () => {
           alert("Mensaje enviado con éxito!");
-          form.current.reset(); // limpia el formulario
+          form.current.reset();
         },
         (error) => {
           console.error("Error al enviar:", error.text);
@@ -35,7 +33,7 @@ const Contact = () => {
       <h3>Contactate Conmigo</h3>
       <Form ref={form} onSubmit={sendEmail} data-bs-theme={context} className="w-75 mx-auto mt-5">
         <Form.Group
-          style={{ padding: "5px", border: "3px solid rgb(212, 227, 6)" }}
+          style={{ padding: "5px", border: "3px solid transparent",borderImage: "linear-gradient(to bottom, rgb(32, 187, 94), rgba(32, 187, 94, 0)) 1" }}
           className="mb-3 container"
           controlId="formBasicEmail"
         >
@@ -49,7 +47,7 @@ const Contact = () => {
         </Form.Group>
 
         <Form.Group
-          style={{ padding: "5px", border: "3px solid rgb(212, 227, 6)" }}
+          style={{ padding: "5px", border: "3px solid transparent",borderImage: "linear-gradient(to bottom, rgb(32, 187, 94), rgba(32, 187, 94, 0)) 1" }}
           className="mb-3 container"
           controlId="formBasicNombre"
         >
@@ -62,7 +60,7 @@ const Contact = () => {
           />
         </Form.Group>
         <Form.Group
-          style={{ padding: "5px", border: "3px solid rgb(212, 227, 6)" }}
+          style={{ padding: "5px", border: "3px solid transparent",borderImage: "linear-gradient(to bottom, rgb(32, 187, 94), rgba(32, 187, 94, 0)) 1" }}
           className="mb-3 container"
           controlId="formBasicGmail"
         >
@@ -75,20 +73,20 @@ const Contact = () => {
           />
         </Form.Group>
         <Form.Group
-          style={{ padding: "5px", border: "3px solid rgb(212, 227, 6)" }}
+          style={{ padding: "5px", border: "3px solid transparent",borderImage: "linear-gradient(to bottom, rgb(32, 187, 94), rgba(32, 187, 94, 0)) 1"}}
           className="mb-3 container"
           controlId="exampleForm.ControlTextarea1"
         >
           <Form.Label>Mensaje</Form.Label>
           <Form.Control
-            style={{ border: "3px solid rgb(212, 227, 6)" }}
+            style={{ border: "3px solid transparent",borderImage: "linear-gradient(to bottom, rgb(32, 187, 94), rgba(32, 187, 94, 0)) 1" }}
             as="textarea"
             rows={3}
             name="message"
             required
           />
         </Form.Group>
-        <Button variant="primary" type="submit">
+        <Button variant="success" type="submit">
           Enviar
         </Button>
       </Form>

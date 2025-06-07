@@ -1,13 +1,13 @@
 import React from "react";
-import datos from "../../datos";
+import datos from "../../../datos";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
-import foto from "../../imagenes/fotoMia.jpg";
+import foto from "../../../imagenes/fotoMia.jpg";
 import ListGroup from "react-bootstrap/ListGroup";
-import { useContextOscuro } from "../../context/contextModoOscuro";
+import { useContextOscuro } from "../../../context/contextModoOscuro";
 
 const AboutMe = () => {
   const { context, setContext } = useContextOscuro();

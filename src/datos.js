@@ -1,7 +1,7 @@
 const datos = {
   nombre: "Nicolás",
   apellido: "Iñigo",
-  titulo: "tecnico universitario en programacion",
+  titulo: "Tecnico Universitario en Programación",
   telefono: "3814142367",
   gmail: "ninigo@gmail.com",
   hobbis:{

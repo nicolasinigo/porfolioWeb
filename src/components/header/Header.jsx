@@ -28,6 +28,7 @@ const Header = () => {
           <Navbar.Brand href="/">Welcome</Navbar.Brand>
           <Nav>
             <Nav.Link href="/">About Me</Nav.Link>
+            <Nav.Link href="/study">Study and job</Nav.Link>
             <Nav.Link href="/skills">Skills</Nav.Link>
             <Nav.Link href="/contact">Contact Me</Nav.Link>
             <Nav.Link href="/proyects">Proyects</Nav.Link>
