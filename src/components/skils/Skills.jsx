@@ -14,7 +14,7 @@ const Skills = () => {
   return (
     <div>
       <Container>
-        <h4>Summary of skills</h4>
+        <h4>Skills</h4>
         <Row>
           <Col>
             <ListGroup>
@@ -32,7 +32,7 @@ const Skills = () => {
           <Col>
             <ListGroup>
               <ListGroup.Item as="li" variant="danger"data-bs-theme={context}>
-                Analisiste Datos
+                Analisis de Datos
               </ListGroup.Item>
               <ListGroup.Item as="li" style={{ color: textColor , backgroundColor: bgColor}}>Python (Pandas, Pyspark)</ListGroup.Item>
               <ListGroup.Item as="li" style={{ color: textColor , backgroundColor: bgColor}}>SQL</ListGroup.Item>
